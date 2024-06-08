@@ -8,10 +8,9 @@ let scrollTimeout;
 document.getElementById('container').style.width = window_width + "px";
 document.getElementById('container').style.height = window_height + "px";
 
-console.log(height);
-console.log(window.innerHeight);
-console.log(document.querySelector('.container').style.height);
-
+// console.log(height);
+// console.log(window.innerHeight);
+// console.log(document.querySelector('.container').style.height);
 
 video.playbackRate = 0.5;
 inner.addEventListener("scroll", () => {
