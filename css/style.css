@@ -36,9 +36,9 @@ body {
     position: relative;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .container .inner::-webkit-scrollbar {
     width: 10px;

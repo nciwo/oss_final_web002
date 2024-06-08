@@ -1,12 +1,13 @@
 video = document.getElementById("background_video");
 inner = document.querySelector(".inner");
 
-let height = window.innerHeight;
-let width = window.innerWidth;
+let window_height = window.innerHeight;
+let window_width = window.innerWidth;
 let scrollTimeout;
 
-document.querySelector('.container').style.width = width;
-document.querySelector('.container').style.height = height;
+document.getElementById('container').style.width = window_width + "px";
+document.getElementById('container').style.height = window_height + "px";
+
 console.log(height);
 console.log(window.innerHeight);
 console.log(document.querySelector('.container').style.height);
